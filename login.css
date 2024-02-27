@@ -1,0 +1,90 @@
+.loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline white;
+    margin: 10px 0px 20px 0px;
+}
+.form{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 50%;
+    display:  inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+}
+label{
+    margin-top: 10px 0px;
+    color: white;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.loginbtn{
+    background-color: #4070f4;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px 0px;
+    transition: 0.8s;
+}
+.loginbtn:hover{
+    background-color: white;
+    color: #4070f4;
+}
+.forgotpwd, .notreg{
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+.externallogin{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.google, .facebook{
+    width: 49%;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
+}
+img{
+    object-fit: cover;
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+/* .externallogin .google:hover, .externallogin .facebook:hover{
+    color: white;
+    background-color: #4070f4;
+} */

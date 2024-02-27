@@ -1,0 +1,10 @@
+body{
+    background-color: #4070f4;
+    font-family: "Josefin Sans", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
